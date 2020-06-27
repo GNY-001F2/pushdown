@@ -10,3 +10,6 @@ executable          pushdown
     extensions:     OverloadedStrings
     build-depends:  base   >= 4      && < 5
                   , scotty
+                  , pandoc
+                  , text
+                  , mtl
